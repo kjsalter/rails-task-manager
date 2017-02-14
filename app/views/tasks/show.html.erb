@@ -1,0 +1,7 @@
+<h1>name: <%= @task.name %></h1>
+
+<h3>status: <%= @task.status %></h3>
+<h3>creation date: <%= @task.created_at %></h3>
+
+<%= link_to "Edit task", edit_task_path %>
+<%= link_to "Back to task list", tasks_path %>
